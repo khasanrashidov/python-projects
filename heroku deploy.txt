@@ -1,0 +1,23 @@
+C:\Windows\System32>heroku login
+
+C:\Windows\System32>cd C:\timetablereminderbot
+
+C:\timetablereminderbot>git init
+
+C:\timetablereminderbot>git add .
+
+C:\timetablereminderbot>git commit -m "First Release"
+
+C:\timetablereminderbot>heroku create timetablereminderbot
+
+C:\timetablereminderbot>git remote -v
+
+C:\timetablereminderbot>git push heroku master
+
+C:\timetablereminderbot>heroku ps
+
+C:\timetablereminderbot>heroku ps:scale worker=1
+
+C:\timetablereminderbot>heroku ps
+
+C:\timetablereminderbot>
